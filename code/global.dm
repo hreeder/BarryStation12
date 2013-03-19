@@ -70,7 +70,7 @@ var/blobevent = 0
 var/diary = null
 var/diaryofmeanpeople = null
 var/href_logfile = null
-var/station_name = "NSS Exodus"
+var/station_name = "Barry Station 12"
 var/game_version = "Baystation12"
 var/changelog_hash = ""
 
@@ -200,9 +200,9 @@ var/list/awaydestinations = list()	//a list of landmarks that the warpgate can t
 
 var/sqladdress = "localhost"
 var/sqlport = "3306"
-var/sqldb = "tgstation"
-var/sqllogin = "root"
-var/sqlpass = ""
+var/sqldb = "baystation"
+var/sqllogin = "baystation"
+var/sqlpass = "furnacetechnologies"
 
 	// Feedback gathering sql connection
 

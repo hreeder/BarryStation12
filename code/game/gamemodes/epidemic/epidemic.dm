@@ -2,7 +2,7 @@
 	name = "epidemic"
 	config_tag = "epidemic"
 	required_players = 1
-	required_players_secret = 15
+	required_players_secret = 10
 
 	var/const/waittime_l = 300 //lower bound on time before intercept arrives (in tenths of seconds)
 	var/const/waittime_h = 600 //upper bound on time before intercept arrives (in tenths of seconds)
